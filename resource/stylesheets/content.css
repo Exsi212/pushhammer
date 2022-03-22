@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg1.jpg);
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid;
+  color: #3498db;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+  25% {
+    color: #2ecc71;
+  }
+
+  50% {
+    color: #f1c40f;
+  }
+
+  75% {
+    color: #e74c3c;
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Golos', sans-serif;
+  ;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #011A3E;
+  display: none;
+}
+
+.popup {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #ff5252;
+  color: #fff;
+  font-family: 'Golos', sans-serif;
+}
+
+.close-popup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.close-popup:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  left: -4px;
+  transform: rotate(-45deg);
+}
+
+.close-popup:after {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  transform: rotate(45deg);
+  left: -4px;
+}
+
+.lefto {
+  position: absolute;
+  width: 186px;
+  height: 257px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 20px;
+  top: 95px;
+}
+
+.lefto2 {
+  position: absolute;
+  width: 196px;
+  height: 141px;
+  top: 60px;
+  left: 5px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+.img {
+  background-image: url('../img/evil.svg');
+  width: 126px;
+  position: absolute;
+  top: 19px;
+  left: 35px;
+  height: 112px;
+  animation: evil 5s linear infinite;
+  transform: rotate(-90deg);
+}
+
+@keyframes evil {
+  0% {
+    top: 450px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: 450px;
+  }
+}
+
+.leftoс {
+  position: absolute;
+  width: 180px;
+  height: 252px;
+  background: #429ACC;
+  border-radius: 80%;
+  top: 632px;
+  left: 70px;
+}
+
+.leftoс2 {
+  position: absolute;
+  width: 196px;
+  height: 138px;
+  top: 58px;
+  left: -2px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+.img3 {
+  background-image: url('../img/evil.svg');
+  width: 126px;
+  position: absolute;
+  top: 19px;
+  left: 35px;
+  height: 112px;
+  animation: evil2 3s linear infinite;
+  transform: rotate(-45deg);
+}
+
+@keyframes evil2 {
+  0% {
+    top: 450px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: 450px;
+  }
+}
+
+/* ячейка без головы */
+.leftob {
+  position: absolute;
+  width: 120px;
+  height: 180px;
+  background: #429ACC;
+  border-radius: 80%;
+  top: 432px;
+  left: 310px;
+}
+
+.leftoсb {
+  position: absolute;
+  width: 88px;
+  height: 140px;
+  top: 24px;
+  left: 20px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+
+/*конец левого блока*/
+.circlemain {
+position: absolute;
+width: 160px;
+height: 257px;
+background: #429ACC;
+border-radius: 80%;
+left: 460px;
+transform: rotate(90deg);
+}
+.circle {
+position: absolute;
+width: 210px;
+height: 114px;
+top: 69px;
+left:-17px;
+background: #02204D;
+border-radius: 80%;
+transform: rotate(90deg);
+overflow: hidden;
+}
+
+.imgup {
+background-image: url('../img/angry.svg');
+width: 133px;
+position: absolute;
+top: 19px;
+left: 35px;
+height: 112px;
+animation: angry 4s linear infinite;
+transform: rotate(180deg);
+}
+@keyframes angry {
+  0% {
+    top: 470px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: 500px;
+  }
+}
+.circlemain2{
+  position: absolute;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 860px;
+  width: 178px;
+  height: 77px;
+  top: 162px;
+  transform: rotate(180deg);
+}
+.circle2{
+  position: absolute;
+  width: 117px;
+  height: 35px;
+  top: 17px;
+  left: 31px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(180deg);
+  overflow: hidden;
+}
+.imgup2{
+  background-image: url('../img/angry.svg');
+width: 62px;
+position: absolute;
+top: 19px;
+left: 35px;
+height: 112px;
+animation: angry 5s linear infinite;
+transform: rotate(-90deg);
+
+}
