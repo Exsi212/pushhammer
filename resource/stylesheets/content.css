@@ -2,19 +2,34 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../img/bg1.jpg);
+  overflow: hidden;
+}
+
+.block {
+  background-color: #011A3E;
+  width: 1920px;
+  ;
+  height: 1080px;
+  display: block;
+}
+
+.block-on {
+  display: none;
 }
 
 .loader-container {
   width: 100%;
   height: 100vh;
-  background-color: #111;
+  background-color: #011A3E;
   position: fixed;
   display: flex;
   align-items: center;
+  z-index: 99;
   justify-content: center;
 }
 
 .loader {
+  z-index: 99;
   width: 50px;
   height: 50px;
   border: 5px solid;
@@ -60,6 +75,14 @@ body {
   left: 0;
   background-color: #011A3E;
   display: none;
+}
+
+.sectionmain {
+  display: none;
+}
+
+.sectionmain-on {
+  display: block;
 }
 
 .popup {
@@ -225,36 +248,38 @@ body {
 
 /*конец левого блока*/
 .circlemain {
-position: absolute;
-width: 160px;
-height: 257px;
-background: #429ACC;
-border-radius: 80%;
-left: 460px;
-transform: rotate(90deg);
+  position: absolute;
+  width: 160px;
+  height: 257px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 460px;
+  transform: rotate(90deg);
 }
+
 .circle {
-position: absolute;
-width: 210px;
-height: 114px;
-top: 69px;
-left:-17px;
-background: #02204D;
-border-radius: 80%;
-transform: rotate(90deg);
-overflow: hidden;
+  position: absolute;
+  width: 210px;
+  height: 114px;
+  top: 69px;
+  left: -17px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  overflow: hidden;
 }
 
 .imgup {
-background-image: url('../img/angry.svg');
-width: 133px;
-position: absolute;
-top: 19px;
-left: 35px;
-height: 112px;
-animation: angry 4s linear infinite;
-transform: rotate(180deg);
+  background-image: url('../img/angry.svg');
+  width: 133px;
+  position: absolute;
+  top: 19px;
+  left: 35px;
+  height: 112px;
+  animation: angry 4s linear infinite;
+  transform: rotate(180deg);
 }
+
 @keyframes angry {
   0% {
     top: 470px;
@@ -268,35 +293,569 @@ transform: rotate(180deg);
     top: 500px;
   }
 }
-.circlemain2{
+
+/* upper block */
+.circleupper {
   position: absolute;
+  width: 300px;
+  height: 130px;
   background: #429ACC;
   border-radius: 80%;
-  left: 860px;
-  width: 178px;
-  height: 77px;
-  top: 162px;
-  transform: rotate(180deg);
+  left: 484px;
+  top: 32px;
 }
-.circle2{
+
+.circleu {
   position: absolute;
-  width: 117px;
-  height: 35px;
-  top: 17px;
-  left: 31px;
+  width: 177px;
+  height: 55px;
+  top: 60px;
+  left: 60px;
   background: #02204D;
   border-radius: 80%;
-  transform: rotate(180deg);
   overflow: hidden;
 }
-.imgup2{
-  background-image: url('../img/angry.svg');
-width: 62px;
-position: absolute;
-top: 19px;
-left: 35px;
-height: 112px;
-animation: angry 5s linear infinite;
-transform: rotate(-90deg);
 
+.circleupper2 {
+  position: absolute;
+  width: 180px;
+  height: 78px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 870px;
+  top: 162px;
+}
+
+.circleu2 {
+  position: absolute;
+  width: 106px;
+  height: 33px;
+  top: 35px;
+  left: 40px;
+  background: #02204D;
+  border-radius: 80%;
+}
+
+.imgu {
+  background-image: url('../img/angry.svg');
+  width: 63px;
+  position: absolute;
+  top: -90px;
+  background-repeat: no-repeat;
+  left: 23px;
+  height: 74px;
+  animation: angry 2s linear infinite;
+}
+
+@keyframes angry {
+  0% {
+    top: -90px;
+  }
+
+  50% {
+    top: 0px;
+  }
+
+  100% {
+    top: -90px;
+  }
+}
+
+.unvisible {
+  position: absolute;
+  width: 106px;
+  height: 200px;
+  z-index: 2;
+  left: 909px;
+  top: 208px;
+  width: 106px;
+  height: 200px;
+  overflow: hidden;
+}
+
+/* @keyframes angry {
+    0% {
+      top: 470px;
+    }
+
+    50% {
+      top: 20px;
+    }
+
+    100% {
+      top: 500px;
+    }
+  }
+} */
+.circleuppe3r {
+  position: absolute;
+  width: 176px;
+  height: 76px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 1220px;
+  top: 64px;
+}
+
+.circleu3 {
+  position: absolute;
+  width: 103px;
+  height: 33px;
+  top: 34px;
+  left: 36px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circleupper4 {
+  position: absolute;
+  width: 118px;
+  height: 51px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 1197px;
+  top: 213px;
+}
+
+.circleu4 {
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  top: 23px;
+  left: 24px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+/* ri block */
+/* .circleright{
+  position: absolute;
+  width: 129px;
+  height: 56px;
+  top: 653px;
+  left: 1440px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(-90deg);
+}
+.circler1{
+  position: absolute;
+  width: 24px;
+  height: 76px;
+  top: -12px;
+  left: 48px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(-90deg);
+  overflow: hidden; */
+/* }
+.circleright2{
+  position: absolute;
+  width: 222px;
+  height: 96px;
+  top: 514px;
+  left: 1574px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(-90deg);
+}
+.circler2{
+  position: absolute;
+  width: 151px;
+  height: 54px;
+  top: 15px;
+  left: 40px;
+  background: #02204D;
+  border-radius: 80%;
+  /* transform: rotate(90deg); */
+.imgr {
+  background-image: url('../img/angry.svg');
+  width: 63px;
+  position: absolute;
+  top: -90px;
+  background-repeat: no-repeat;
+  left: 23px;
+  height: 74px;
+  animation: angry2 2s linear infinite;
+}
+
+.circleright2 {
+  position: absolute;
+  width: 129px;
+  height: 56px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 1440px;
+  top: 533px;
+}
+
+.circler2 {
+  position: absolute;
+  width: 76px;
+  height: 24px;
+  top: 20px;
+  left: 28px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circleright3 {
+  position: absolute;
+  width: 222px;
+  height: 96px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 1524px;
+  top: 678px;
+}
+
+.circler3 {
+  position: absolute;
+  width: 148px;
+  height: 61px;
+  top: 20px;
+  left: 44px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.imgr3 {
+  background-image: url('../img/angry.svg');
+  width: 83px;
+  position: absolute;
+  top: -80px;
+  background-repeat: no-repeat;
+  left: 63px;
+  height: 68px;
+  animation: angry2 6s linear infinite;
+}
+
+.unvisivle2 {
+  position: absolute;
+  height: 200px;
+  width: 136px;
+  overflow: hidden;
+  left: 1488px;
+  top: 600px;
+  transform: rotate(90deg);
+}
+
+@keyframes angry2 {
+  0% {
+    top: -68px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: -68px;
+  }
+}
+
+.circler2 {
+  position: absolute;
+  width: 76px;
+  height: 24px;
+  top: 20px;
+  left: 28px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circleright4 {
+  position: absolute;
+  width: 319px;
+  height: 138px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 1536px;
+  top: 270px;
+}
+
+.circler4 {
+  position: absolute;
+  width: 220px;
+  height: 64px;
+  top: 40px;
+  left: 44px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.unvisible4 {
+  position: absolute;
+  /* border-radius: 20%; */
+  height: 400px;
+  width: 360px;
+  overflow: hidden;
+  left: 1318px;
+  top: 222px;
+  transform: rotate(90deg);
+}
+
+.imgr4 {
+  background-image: url('../img/kind.svg');
+  width: 263px;
+  position: absolute;
+  top: 19px;
+  left: -16px;
+  height: 233px;
+  animation: kind 4s linear infinite;
+  transform: rotate(-90deg);
+  background-repeat: no-repeat;
+}
+
+@keyframes kind {
+  0% {
+    top: -300px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: -300px;
+  }
+}
+
+/* down block */
+.circledown {
+  position: absolute;
+  width: 168px;
+  height: 65px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 551px;
+  top: 895px;
+}
+
+.circledown2 {
+  position: absolute;
+  width: 100px;
+  height: 27px;
+  top: 8px;
+  left: 35px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circledown3 {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 994px;
+  top: 827px;
+}
+
+.circledown4 {
+  position: absolute;
+  width: 61px;
+  height: 16px;
+  top: 5px;
+  left: 22px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circledown5 {
+  position: absolute;
+  width: 327px;
+  height: 126px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 1046px;
+  top: 912px;
+}
+
+.circledown6 {
+  position: absolute;
+  width: 194px;
+  height: 51px;
+  top: 16px;
+  left: 68px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.unvisibledown {
+  position: absolute;
+  z-index: 2;
+  left: 1123px;
+  top: 749px;
+  width: 177px;
+  height: 215px;
+  overflow: hidden;
+  transform: rotate(-180deg);
+  border-radius: 10%;
+}
+
+.imgdwn {
+  background-image: url('../img/evildwn.svg');
+  width: 178px;
+  position: absolute;
+  top: 19px;
+  left: -30px;
+  height: 233px;
+  animation: evildown 1.5s linear infinite;
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+}
+
+@keyframes evildown {
+  0% {
+    top: -268px;
+  }
+
+  50% {
+    top: -39px;
+  }
+
+  100% {
+    top: -268px;
+  }
+}
+
+/* center block */
+.circlecenter{
+  position: absolute;
+  width: 136px;
+  height: 136px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 546px;
+  top: 324px;
+}
+.cirlcecenter1
+{
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 27px;
+  left: 27px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circlecenter2{
+  position: absolute;
+  width: 136px;
+  height: 136px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 715px;
+  top: 527px;
+}
+.cirlcecenter3
+{
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 30px;
+  left: 29px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.imgcl {
+  background-image: url('../img/evil.svg');
+  width: 49px;
+  position: absolute;
+  top: 557px;
+  left: 715px;
+  height: 56px;
+  animation: ck 5s infinite;
+
+}
+.circlecente4{
+  position: absolute;
+  width: 134px;
+  height: 134px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 941px;
+  top: 358px;
+}
+
+.cirlcecenter5{
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 29px;
+  left: 28px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.circlecenter6{
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 1153px;
+  top: 504px;
+}
+
+.cirlcecenter7{
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  top: 36px;
+  left: 36px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.imgcenter{
+  background-image: url('../img/kindl.svg');
+  width: 92px;
+      position: absolute;
+      top: 12px;
+      left: 20px;
+      height: 100px;
+      background-repeat: no-repeat;
+      animation: mymove 1.2s infinite;
+}
+@keyframes mymove {
+    50% {opacity: 0;}
+}
+
+.imgcenter1{
+  background-image: url('../img/evillit.svg');
+  width: 88px;
+      position: absolute;
+      top: 14px;
+      left: 15px;
+      height: 78px;
+      background-repeat: no-repeat;
+      animation: mymove 1.6s infinite;
+
+}
+@keyframes mymove {
+    50% {opacity: 0;}
+}
+.p{
+  position: absolute;
+  left: 800px;
+  font-family: 'Roboto',sans-serif;
+  font-size: 36px;
+  color: black;
 }

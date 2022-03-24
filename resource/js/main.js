@@ -5,8 +5,8 @@
 
 $(document).ready(function() {
   $('.popup').click(function() {
-    $('.sectionmain').css('display', 'none');
-    $('.sectionmain').css('display', 'block');
+    $('.sectionmain').toggle('sectionmain-on');
+    $('.block').toggleClass('block-on');
   });
 });
 
@@ -28,4 +28,13 @@ $(window).on('load', function() {
       $(".js-overlay-campaign").fadeIn();
     }
   }, 500);
+});
+
+// счетчик
+
+var score=0;
+
+$("#btn").click(function(){
+score++;
+$('#score').text(score);
 });
