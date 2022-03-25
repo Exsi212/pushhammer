@@ -33,8 +33,9 @@ $(window).on('load', function() {
 // счетчик
 
 var score=0;
-
-$("#btn").click(function(){
+$( '.btn' ).each(function() {
+$(this).click(function(){
 score++;
 $('#score').text(score);
+});
 });

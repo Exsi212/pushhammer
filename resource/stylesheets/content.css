@@ -5,6 +5,9 @@ body {
   overflow: hidden;
 }
 
+.body-on{
+  
+}
 .block {
   background-color: #011A3E;
   width: 1920px;
@@ -377,11 +380,9 @@ body {
     0% {
       top: 470px;
     }
-
     50% {
       top: 20px;
     }
-
     100% {
       top: 500px;
     }
@@ -852,10 +853,14 @@ body {
 @keyframes mymove {
     50% {opacity: 0;}
 }
-.p{
+
+p{
   position: absolute;
   left: 800px;
   font-family: 'Roboto',sans-serif;
   font-size: 36px;
   color: black;
+}
+.btn{
+  cursor: pointer;
 }
