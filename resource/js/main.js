@@ -1,7 +1,6 @@
-
-        $(window).on("load",function(){
-            $(".loader-container").fadeOut(1000);
-        });
+$(window).on("load", function() {
+  $(".loader-container").fadeOut(1000);
+});
 
 $(document).ready(function() {
   $('.popup').click(function() {
@@ -30,20 +29,14 @@ $(window).on('load', function() {
 
 // счетчик
 
-var score=0;
-$( '.btn' ).each(function() {
-$(this).click(function(){
-score++;
-$('#score').text(score);
-});
+var score = 0;
+$('.btn').each(function() {
+  $(this).click(function() {
+    score++;
+    $('#score').text(score);
+  });
 });
 
-// // таймер
-//
-
-// setTimeout(function(load){
-// $(".end").css("display","block");
-// }, 1000);
 
 let seconds = 15
 const interval = setInterval(() => {
@@ -54,6 +47,12 @@ const interval = setInterval(() => {
     return
   }
   seconds--
-  $(".seconds").text(seconds)
+  $("#seconds").text(seconds)
 
-},1000)
+}, 1000)
+// toggle body
+$(document).ready(function() {
+  $('.imgu').click(function() {
+    $('body').toggleClass('body-on');
+  });
+});
