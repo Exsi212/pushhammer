@@ -168,11 +168,12 @@
 }
 .imgu {
   background-image: url('../img/angry.svg');
-  width: 63px;
+  background-size: 60%;
+  width: 117px;
   position: absolute;
   top: -90px;
   background-repeat: no-repeat;
-  left: 23px;
+  left: 10px;
   height: 74px;
   animation: angry 2s linear infinite;
 }
@@ -192,13 +193,13 @@
 .unvisible {
   position: absolute;
   width: 106px;
-  height: 200px;
-  z-index: 2;
-  left: 909px;
-  top: 208px;
-  width: 106px;
-  height: 200px;
-  overflow: hidden;
+    height: 200px;
+    z-index: 2;
+    left: 605px;
+    top: 189px;
+    width: 106px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .circleupper4 {
@@ -342,7 +343,7 @@
   width: 92px;
   position: absolute;
   top: 12px;
-  left: 20px;
+  left: -4px;
   height: 100px;
   background-repeat: no-repeat;
   animation: mymove 1.2s infinite;
@@ -514,7 +515,7 @@
   background: #429ACC;
   border-radius: 80%;
   left: 277px;
-  top: 800px;
+  top: 776px;
 }
 
 .circledown2 {
@@ -533,7 +534,7 @@
   height: 40px;
   background: #429ACC;
   border-radius: 80%;
-  left: 686px;
+  left: 697px;
   top: 714px;
 }
 
@@ -546,4 +547,62 @@
   background: #02204D;
   border-radius: 80%;
   overflow: hidden;
+}
+.circledown5 {
+  position: absolute;
+  width: 282px;
+  height: 93px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 835px;
+  top: 762px;
+}
+
+.circledown6 {
+  position: absolute;
+  width: 162px;
+  height: 51px;
+  top: 9px;
+  left: 60px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.unvisibledown {
+  position: absolute;
+  z-index: 2;
+  left: 1123px;
+  top: 749px;
+  width: 177px;
+  height: 215px;
+  overflow: hidden;
+  transform: rotate(-180deg);
+  border-radius: 10%;
+}
+
+.imgdwn {
+  background-image: url('../img/evildwn.svg');
+  width: 178px;
+  position: absolute;
+  top: 19px;
+  left: -30px;
+  height: 233px;
+  animation: evildown 1.5s linear infinite;
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+}
+
+@keyframes evildown {
+  0% {
+    top: -268px;
+  }
+
+  50% {
+    top: -39px;
+  }
+
+  100% {
+    top: -268px;
+  }
 }
