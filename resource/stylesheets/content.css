@@ -1,9 +1,11 @@
+*{
+  cursor: url(../img/pointerr.png) default;
+}
 body {
   margin: 0;
   padding: 0;
   background-image: url(../img/bg1.jpg);
   overflow: hidden;
-  /* cursor: url('..img/curs.png'), default; */
 }
 
 .body-on {
