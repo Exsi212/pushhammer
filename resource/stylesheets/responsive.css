@@ -1,0 +1,549 @@
+@media (min-width:900px) and (max-width:1440px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/br2.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  cursor: url('../img/cursor.png'),default;
+}
+.body-on {
+  background-image: url(../img/br2t.png);
+}
+.lefto {
+  position: absolute;
+  width: 144px;
+  height: 239px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 20px;
+  top: 125px;
+}
+
+.lefto2 {
+  position: absolute;
+  width: 146px;
+  height: 94px;
+  top: 72px;
+  left: 5px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+.img {
+  background-image: url('../img/evil.svg');
+  width: 126px;
+  position: absolute;
+  top: 19px;
+  left: 35px;
+  height: 145px;
+  animation: evil 5s linear infinite;
+  transform: rotate(-90deg);
+}
+
+@keyframes evil {
+  0% {
+    top: 450px;
+  }
+
+  50% {
+    top: 30px;
+  }
+
+  100% {
+    top: 450px;
+  }
+}
+
+/*  */
+.leftoс {
+  position: absolute;
+  width: 130px;
+  height: 252px;
+  background: #429ACC;
+  border-radius: 80%;
+  top: 535px;
+  left: 46px;
+}
+
+.leftoс2 {
+  position: absolute;
+  width: 150px;
+    height: 77px;
+    top: 81px;
+    left: -6px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+.img3 {
+  background-image: url('../img/evil.svg');
+  width: 126px;
+  position: absolute;
+  top: 19px;
+  left: 35px;
+  height: 112px;
+  animation: evil2 3s linear infinite;
+  transform: rotate(-45deg);
+}
+
+@keyframes evil2 {
+  0% {
+    top: 450px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: 450px;
+  }
+}
+/*  */
+.leftob {
+  position: absolute;
+  width: 88px;
+  height: 155px;
+  background: #429ACC;
+  border-radius: 80%;
+  top: 387px;
+  left: 262px;
+}
+
+.leftoсb {
+  position: absolute;
+  width: 58px;
+    height: 112px;
+    top: 24px;
+    left: 17px;
+  background: #02204D;
+  border-radius: 80%;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+/* --------- */
+.circleupper {
+  position: absolute;
+  width: 282px;
+    height: 97px;
+    background: #429ACC;
+    border-radius: 80%;
+    left: 258px;
+    top: 36px;
+}
+
+.circleu {
+  position: absolute;
+  width: 171px;
+  height: 53px;
+      top: 30px;
+      left: 60px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.circleupper2 {
+  position: absolute;
+  width: 180px;
+  height: 78px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 560px;
+  top: 143px;
+}
+
+.circleu2 {
+  position: absolute;
+  width: 106px;
+  height: 33px;
+  top: 24px;
+  left: 36px;
+  background: #02204D;
+  border-radius: 80%;
+}
+.imgu {
+  background-image: url('../img/angry.svg');
+  width: 63px;
+  position: absolute;
+  top: -90px;
+  background-repeat: no-repeat;
+  left: 23px;
+  height: 74px;
+  animation: angry 2s linear infinite;
+}
+@keyframes angry {
+  0% {
+    top: -90px;
+  }
+
+  50% {
+    top: 0px;
+  }
+
+  100% {
+    top: -90px;
+  }
+}
+.unvisible {
+  position: absolute;
+  width: 106px;
+  height: 200px;
+  z-index: 2;
+  left: 909px;
+  top: 208px;
+  width: 106px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.circleupper4 {
+  position: absolute;
+  width: 118px;
+  height: 51px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 855px;
+  top: 160px;
+}
+
+.circleu4 {
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  top: 23px;
+  left: 24px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.circleuppe3r {
+  position: absolute;
+  width: 176px;
+  height: 76px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 960px;
+  top: 64px;
+}
+
+.circleu3 {
+  position: absolute;
+  width: 103px;
+  height: 33px;
+  top: 34px;
+  left: 36px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+/* -------- */
+/* center block */
+.circlecenter {
+  position: absolute;
+  width: 126px;
+  height: 126px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 422px;
+  top: 286px;
+}
+
+.cirlcecenter1 {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 23px;
+  left: 23px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circlecenter2 {
+  position: absolute;
+  width: 124px;
+  height: 124px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 563px;
+  top: 486px;
+}
+
+.cirlcecenter3 {
+  position: absolute;
+  width: 76px;
+    height: 76px;
+    top: 26px;
+    left: 25px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.imgcl {
+  background-image: url('../img/evil.svg');
+  width: 49px;
+  position: absolute;
+  top: 557px;
+  left: 715px;
+  height: 56px;
+  animation: ck 5s infinite;
+}
+
+.circlecente4 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 704px;
+  top: 326px;
+}
+
+.cirlcecenter5 {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  top: 24px;
+  left: 24px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.circlecenter6 {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 861px;
+  top: 490px;
+}
+
+.cirlcecenter7 {
+  position: absolute;
+  width: 78px;
+    height: 78px;
+    top: 30px;
+    left: 26px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.imgcenter {
+  background-image: url('../img/kindl.svg');
+  width: 92px;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  height: 100px;
+  background-repeat: no-repeat;
+  animation: mymove 1.2s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    opacity: 0;
+  }
+}
+
+.imgcenter1 {
+  background-image: url('../img/evillit.svg');
+  width: 88px;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  height: 78px;
+  background-repeat: no-repeat;
+  animation: mymove 1.6s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    opacity: 0;
+  }
+}
+/* --------------- */
+.circleright2 {
+  position: absolute;
+  width: 129px;
+  height: 56px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 1040px;
+  top: 415px;
+}
+
+.circler2 {
+  position: absolute;
+  width: 76px;
+  height: 24px;
+  top: 20px;
+  left: 28px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.circleright3 {
+  position: absolute;
+  width: 147px;
+  height: 69px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 1094px;
+  top: 561px;
+}
+
+.circler3 {
+  position: absolute;
+  width: 100px;
+    height: 39px;
+    top: 17px;
+    left: 23px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.imgr3 {
+  background-image: url('../img/angry.svg');
+  width: 83px;
+  position: absolute;
+  top: -80px;
+  background-repeat: no-repeat;
+  left: 63px;
+  height: 68px;
+  animation: angry2 6s linear infinite;
+}
+
+.unvisivle2 {
+  position: absolute;
+  height: 200px;
+  width: 136px;
+  overflow: hidden;
+  left: 1488px;
+  top: 600px;
+  transform: rotate(90deg);
+}
+
+@keyframes angry2 {
+  0% {
+    top: -68px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: -68px;
+  }
+}
+.circleright4 {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 1147px;
+  top: 277px;
+}
+
+.circler4 {
+  position: absolute;
+  width: 147px;
+  height: 46px;
+    top: 40px;
+    left: 42px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.unvisible4 {
+  position: absolute;
+  /* border-radius: 20%; */
+  height: 400px;
+  width: 360px;
+  overflow: hidden;
+  left: 1318px;
+  top: 222px;
+  transform: rotate(90deg);
+}
+
+.imgr4 {
+  background-image: url('../img/kind.svg');
+  width: 263px;
+  position: absolute;
+  top: 19px;
+  left: -16px;
+  height: 233px;
+  animation: kind 4s linear infinite;
+  transform: rotate(-90deg);
+  background-repeat: no-repeat;
+}
+
+@keyframes kind {
+  0% {
+    top: -300px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    top: -300px;
+  }
+}
+/* --------------------------- */
+.circledown {
+  position: absolute;
+  width: 168px;
+  height: 65px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 277px;
+  top: 800px;
+}
+
+.circledown2 {
+  position: absolute;
+  width: 100px;
+  height: 27px;
+  top: 8px;
+  left: 35px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.circledown3 {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  background: #429ACC;
+  border-radius: 80%;
+  left: 686px;
+  top: 714px;
+}
+
+.circledown4 {
+  position: absolute;
+  width: 61px;
+  height: 16px;
+  top: 5px;
+  left: 22px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
