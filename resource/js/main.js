@@ -17,8 +17,6 @@ $('.js-close-campaign').click(function() {
 
 });
 
-
-// открыть по таймеру
 $(window).on('load', function() {
   setTimeout(function() {
     if ($('.js-overlay-campaign').hasClass('disabled')) {
@@ -39,3 +37,23 @@ score++;
 $('#score').text(score);
 });
 });
+
+// // таймер
+//
+
+// setTimeout(function(load){
+// $(".end").css("display","block");
+// }, 1000);
+
+let seconds = 15
+const interval = setInterval(() => {
+  if (seconds <= 0) {
+    clearInterval(interval)
+    alert(`Очков набрано: ${score}`)
+    window.location = "index.html"
+    return
+  }
+  seconds--
+  $(".seconds").text(seconds)
+
+},1000)

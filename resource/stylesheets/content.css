@@ -6,7 +6,7 @@ body {
 }
 
 .body-on{
-  
+
 }
 .block {
   background-color: #011A3E;
@@ -87,6 +87,8 @@ body {
 .sectionmain-on {
   display: block;
 }
+
+
 
 .popup {
   position: absolute;
@@ -863,4 +865,12 @@ p{
 }
 .btn{
   cursor: pointer;
+}
+.seconds{
+  font-family: 'Roboto',sans-serif;
+  font-size: 36px;
+
+}
+.timet{
+  margin-left: 15px;
 }
