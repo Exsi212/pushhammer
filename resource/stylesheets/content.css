@@ -1,11 +1,13 @@
 *{
-  cursor: url(../img/pointerr.png) default;
+
+
 }
 body {
   margin: 0;
   padding: 0;
   background-image: url(../img/bg1.jpg);
   overflow: hidden;
+    cursor: url('../img/cursor.png'),default;
 }
 
 .body-on {
@@ -385,18 +387,7 @@ body {
   overflow: hidden;
 }
 
-/* @keyframes angry {
-    0% {
-      top: 470px;
-    }
-    50% {
-      top: 20px;
-    }
-    100% {
-      top: 500px;
-    }
-  }
-} */
+
 .circleuppe3r {
   position: absolute;
   width: 176px;
@@ -440,46 +431,7 @@ body {
 }
 
 /* ri block */
-/* .circleright{
-  position: absolute;
-  width: 129px;
-  height: 56px;
-  top: 653px;
-  left: 1440px;
-  background: #429ACC;
-  border-radius: 80%;
-  transform: rotate(-90deg);
-}
-.circler1{
-  position: absolute;
-  width: 24px;
-  height: 76px;
-  top: -12px;
-  left: 48px;
-  background: #02204D;
-  border-radius: 80%;
-  transform: rotate(-90deg);
-  overflow: hidden; */
-/* }
-.circleright2{
-  position: absolute;
-  width: 222px;
-  height: 96px;
-  top: 514px;
-  left: 1574px;
-  background: #429ACC;
-  border-radius: 80%;
-  transform: rotate(-90deg);
-}
-.circler2{
-  position: absolute;
-  width: 151px;
-  height: 54px;
-  top: 15px;
-  left: 40px;
-  background: #02204D;
-  border-radius: 80%;
-  /* transform: rotate(90deg); */
+
 .imgr {
   background-image: url('../img/angry.svg');
   width: 63px;
@@ -871,16 +823,9 @@ body {
   }
 }
 
-/* p {
-  position: absolute;
-  left: 150px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px;
-  color: black;
 
-} */
 
-.btn {
+.btn:hover {
   cursor: pointer;
 }
 
