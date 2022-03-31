@@ -1,4 +1,4 @@
-@media (min-width:900px) and (max-width:1440px) {
+@media (min-width:1367px) and (max-width:1440px) {
   body {
     margin: 0;
     padding: 0;
@@ -34,6 +34,7 @@
 
 .img {
   background-image: url('../img/evil.svg');
+  background-repeat: no-repeat;
   width: 126px;
   position: absolute;
   top: 19px;
@@ -417,11 +418,12 @@
 
 .imgr3 {
   background-image: url('../img/angry.svg');
-  width: 83px;
+  background-size: 40%;
+  width: 124px;
   position: absolute;
   top: -80px;
   background-repeat: no-repeat;
-  left: 63px;
+  left: 59px;
   height: 68px;
   animation: angry2 6s linear infinite;
 }
@@ -429,10 +431,10 @@
 .unvisivle2 {
   position: absolute;
   height: 200px;
-  width: 136px;
-  overflow: hidden;
-  left: 1488px;
-  top: 600px;
+    width: 136px;
+    overflow: hidden;
+    left: 998px;
+    top: 481px;
   transform: rotate(90deg);
 }
 
@@ -442,7 +444,7 @@
   }
 
   50% {
-    top: 20px;
+    top: 6px;
   }
 
   100% {
@@ -477,18 +479,19 @@
   height: 400px;
   width: 360px;
   overflow: hidden;
-  left: 1318px;
+  left: 862px;
   top: 222px;
   transform: rotate(90deg);
 }
 
 .imgr4 {
   background-image: url('../img/kind.svg');
+  background-size: 40%;
   width: 263px;
   position: absolute;
-  top: 19px;
-  left: -16px;
-  height: 233px;
+  top: -9px;
+  left: 12px;
+  height: 204px;
   animation: kind 4s linear infinite;
   transform: rotate(-90deg);
   background-repeat: no-repeat;
@@ -500,7 +503,7 @@
   }
 
   50% {
-    top: 20px;
+    top: -92px;
   }
 
   100% {
@@ -572,8 +575,8 @@
 .unvisibledown {
   position: absolute;
   z-index: 2;
-  left: 1123px;
-  top: 749px;
+  left: 878px;
+  top: 594px;
   width: 177px;
   height: 215px;
   overflow: hidden;
@@ -606,3 +609,5 @@
     top: -268px;
   }
 }
+}
+/* end first adaptive*/
