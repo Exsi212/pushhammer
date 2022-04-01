@@ -38,7 +38,7 @@ $('.btn').each(function() {
 });
 
 
-let seconds = 15
+let seconds = 30
 const interval = setInterval(() => {
   if (seconds <= 0) {
     clearInterval(interval)
