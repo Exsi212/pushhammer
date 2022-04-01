@@ -38,18 +38,18 @@ $('.btn').each(function() {
 });
 
 
-// let seconds = 15
-// const interval = setInterval(() => {
-//   if (seconds <= 0) {
-//     clearInterval(interval)
-//     alert(`Очков набрано: ${score}`)
-//     window.location = "index.html"
-//     return
-//   }
-//   seconds--
-//   $("#seconds").text(seconds)
-//
-// }, 1000)
+let seconds = 15
+const interval = setInterval(() => {
+  if (seconds <= 0) {
+    clearInterval(interval)
+    alert(`Очков набрано: ${score}`)
+    window.location = "index.html"
+    return
+  }
+  seconds--
+  $("#seconds").text(seconds)
+
+}, 1000)
 // toggle body
 $(document).ready(function() {
   $('.imgu').click(function() {
