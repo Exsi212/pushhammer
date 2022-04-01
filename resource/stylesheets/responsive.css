@@ -1676,19 +1676,19 @@ background-size: 50%;
   background-repeat: no-repeat;
 }
 
-@keyframes kind {
+/* @keyframes kind {
   0% {
-    top: -498px;
+    top: -5px;
   }
 
   50% {
-    top: -62px;
+    top: -12px;
   }
 
   100% {
-    top: -498px;
+    top: -58px;
   }
-}
+} */
 .circledown {
   position: absolute;
       width: 134px;
@@ -1812,15 +1812,16 @@ p{
 }
 
 }
-/* @media only screen and  (min-device-width:415px) and (min-device-width: 768px) */
+
+
+@media only screen and (min-device-width:415px) and (max-device-width: 769px)
 {
   body {
     margin: 0;
     padding: 0;
     background-image: url(../img/bgtablet.png);
-
     overflow: hidden;
-      cursor: url('../img/cursor.png'),default;
+    cursor: url('../img/cursor.png'),default;
   }
 
   .body-on {
@@ -1880,7 +1881,7 @@ p{
         height: 152px;
         background: #429ACC;
         border-radius: 80%;
-        top: 417px;
+        top: 695px;
         left: 108px;
 
   }
@@ -1928,8 +1929,8 @@ p{
         height: 118px;
         background: #429ACC;
         border-radius: 80%;
-        top: 283px;
-        left: 174px;
+        top: 415px;
+        left: 128px;
 
 
   }
@@ -1951,8 +1952,8 @@ p{
         height: 86px;
         background: #429ACC;
         border-radius: 80%;
-        left: 224px;
-        top: 22px;
+        left: 114px;
+        top: 47px;
   }
 
   .circleu {
@@ -1971,7 +1972,7 @@ p{
       height: 58px;
       background: #429ACC;
       border-radius: 80%;
-      left: 442px;
+      left: 308px;
       top: 111px;
   }
 
@@ -2015,7 +2016,7 @@ p{
       width: 106px;
       height: 200px;
       z-index: 2;
-      left: 444px;
+      left: 312px;
       top: 154px;
       width: 106px;
       height: 200px;
@@ -2027,7 +2028,7 @@ p{
       height: 44px;
       background: #429ACC;
       border-radius: 80%;
-      left: 616px;
+      left: 461px;
       top: 142px;
 
   }
@@ -2049,7 +2050,7 @@ p{
         height: 60px;
         background: #429ACC;
         border-radius: 80%;
-        left: 680px;
+        left: 510px;
         top: 35px;
   }
 
@@ -2069,7 +2070,7 @@ p{
       height: 82px;
       background: #429ACC;
       border-radius: 80%;
-      left: 276px;
+      left: 223px;
       top: 230px;
   }
 
@@ -2100,8 +2101,8 @@ p{
       height: 84px;
       background: #429ACC;
       border-radius: 80%;
-      left: 380px;
-      top: 385px;
+      left: 290px;
+      top: 628px;
   }
 
   .cirlcecenter3 {
@@ -2120,8 +2121,8 @@ p{
       height: 90px;
       background: #429ACC;
       border-radius: 80%;
-      left: 468px;
-      top: 251px;
+      left: 353px;
+      top: 400px;
   }
 
   .cirlcecenter5 {
@@ -2142,8 +2143,8 @@ p{
         height: 110px;
         background: #429ACC;
         border-radius: 80%;
-        left: 600px;
-        top: 383px;
+        left: 430px;
+        top: 706px;
   }
 
   .cirlcecenter7 {
@@ -2181,8 +2182,8 @@ p{
         background: #429ACC;
         border-radius: 80%;
         transform: rotate(90deg);
-        left: 766px;
-        top: 352px;
+        left: 545px;
+        top: 503px;
   }
   .circler2 {
     position: absolute;
@@ -2201,8 +2202,8 @@ p{
         background: #429ACC;
         border-radius: 80%;
         transform: rotate(90deg);
-        left: 820px;
-        top: 450px;
+        left: 605px;
+        top: 700px;
   }
   .circler3 {
     position: absolute;
@@ -2219,8 +2220,8 @@ p{
       height: 200px;
       width: 136px;
       overflow: hidden;
-      left: 728px;
-      top: 364px;
+      left: 523px;
+      top: 611px;
       transform: rotate(90deg);
   }
   .circleright4 {
@@ -2230,7 +2231,7 @@ p{
       background: #429ACC;
       border-radius: 80%;
       transform: rotate(90deg);
-      left: 844px;
+      left: 605px;
       top: 206px;
   }
 
@@ -2246,12 +2247,12 @@ p{
   }
 
   .unvisible4 {
-    position: absolute;
+      position: absolute;
         /* border-radius: 20%; */
         height: 400px;
         width: 269px;
         overflow: hidden;
-        left: 586px;
+        left: 333px;
         top: 136px;
         transform: rotate(90deg);
   }
@@ -2271,15 +2272,15 @@ p{
 
   @keyframes kind {
     0% {
-      top: -498px;
+      top: 4px;
     }
 
     50% {
-      top: -62px;
+      top: 4px;
     }
 
     100% {
-      top: -498px;
+      top: 4px;
     }
   }
   .circledown {
@@ -2288,8 +2289,8 @@ p{
         height: 51px;
         background: #429ACC;
         border-radius: 80%;
-        left: 139px;
-        top: 623px;
+        left: 165px;
+        top: 884px;
   }
 
   .circledown2 {
@@ -2309,7 +2310,7 @@ p{
     background: #429ACC;
     border-radius: 80%;
     left: 373px;
-    top: 554px;
+    top: 844px;
   }
 
   .circledown4 {
@@ -2328,8 +2329,8 @@ p{
       height: 73px;
       background: #429ACC;
       border-radius: 80%;
-      left: 581px;
-      top: 600px;
+      left: 466px;
+      top: 931px;
   }
 
   .circledown6 {
@@ -2345,8 +2346,8 @@ p{
   .unvisibledown {
     position: absolute;
       z-index: 2;
-      left: 590px;
-      top: 424px;
+      left: 473px;
+      top: 755px;
       width: 177px;
       height: 215px;
       overflow: hidden;
@@ -2384,7 +2385,7 @@ p{
   }
   .seconds {
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -2392,15 +2393,15 @@ p{
 
   p{
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     margin-left: 10px;
     margin-top: 15px;
   }
   .scoreboard{
     display: flex;
     justify-content:space-between;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top:2px;
   }
 
@@ -2408,4 +2409,70 @@ p{
 
 
 
+
+/* @media only screen and (min-device-width:361px) and (max-device-width: 414px)
+{
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/iphone.png);
+    overflow: hidden;
+    cursor: url('../img/cursor.png'),default;
+  }
+
+  .body-on {
+    background-image: url(../img/iphone2.png);
+  }
+  .circledown {
+    position: absolute;
+    width: 168px;
+    height: 65px;
+    background: #429ACC;
+    border-radius: 80%;
+    left: 551px;
+    top: 935px;
+  }
+.circleright4{
+  position: absolute;
+    width: 114px;
+    height: 68px;
+    background: #429ACC;
+    border-radius: 80%;
+    transform: rotate(90deg);
+    left: 304px;
+    top: 206px;
 }
+.circler4 {
+  position: absolute;
+  width: 76px;
+  height: 32px;
+  top: 24px;
+  left: 21px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.circleright2 {
+  position: absolute;
+  width: 129px;
+  height: 56px;
+  background: #429ACC;
+  border-radius: 80%;
+  transform: rotate(90deg);
+  left: 302px;
+  top: 467px;
+}
+
+.circler2 {
+  position: absolute;
+  width: 76px;
+  height: 24px;
+  top: 20px;
+  left: 28px;
+  background: #02204D;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+
+} */
